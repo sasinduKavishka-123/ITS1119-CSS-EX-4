@@ -6,7 +6,7 @@ body{
 
 #road{
     background-image: url("../assets/Case06/road.jpg");
-    width: 5200px;
+    width: 10000px;
     height: 300px;
 
     position: absolute;
@@ -15,11 +15,15 @@ body{
 
 #city{
     background-image: url("../assets/Case06/city.png");
-    width: 5200px;
+    width: 10000px;
     height: 250px;
 
     position: absolute;
     bottom: 300px;
+}
+
+.passingObjs{
+    animation: roadCityAnim 15s infinite;
 }
 
 #car{
@@ -43,6 +47,8 @@ body{
 
     position: absolute;
     bottom: 185px;
+
+    animation: wheelAnim 15s infinite;
 }
 
 #wheel1{
@@ -51,4 +57,22 @@ body{
 
 #wheel2{
     left: calc(50vw + 95px);
+}
+
+@keyframes roadCityAnim {
+    from{
+        left: 0;
+    }
+    to{
+        left: -8000px;
+    }
+}
+
+@keyframes wheelAnim {
+    from{
+        rotate: 0;
+    }
+    to{
+        rotate: 3600deg;
+    }
 }
