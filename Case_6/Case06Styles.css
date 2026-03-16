@@ -1,0 +1,54 @@
+
+
+body{
+    overflow: hidden;
+}
+
+#road{
+    background-image: url("../assets/Case06/road.jpg");
+    width: 5200px;
+    height: 300px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+#city{
+    background-image: url("../assets/Case06/city.png");
+    width: 5200px;
+    height: 250px;
+
+    position: absolute;
+    bottom: 300px;
+}
+
+#car{
+    background-image: url("../assets/Case06/car.png");
+    width: 500px;
+    height: 208px;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    left: calc(50vw - 250px);
+    bottom: 180px;
+}
+
+.wheels{
+    background-image: url("../assets/Case06/wheel.png");
+    width: 100px;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    bottom: 185px;
+}
+
+#wheel1{
+    left: calc(50vw - 210px);
+}
+
+#wheel2{
+    left: calc(50vw + 95px);
+}
