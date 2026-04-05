@@ -34,7 +34,7 @@ div{
         width: 20px;
     }
     to{
-        width: 300px;
+        width: 550px;
         opacity: 0;
     }
 }
@@ -44,6 +44,6 @@ div{
         width: 10px;
     }
     to{
-        width: 290px;
+        width: 540px;
     }
 }
